@@ -21,5 +21,20 @@ Run the Script:
 ./lvm_raid_config.sh
 ```
 ## Deploy app Stack in ansible
+Adjust the playbook.yml file it contains 
+- Installs packages (curl, gnupg, prometheus, docker.io, grafana, node_exporter)
+- Configures firewall
+- Creates users (admin)
+- Deploys Docker containers
+- Starts services
+
 **NOTE: Copy app files to { ./app } **
+```bash
+./app/ansible-proj/playbook.yml
+```
+
+## Monitoring the storage 
+start Gr
+
+
 
