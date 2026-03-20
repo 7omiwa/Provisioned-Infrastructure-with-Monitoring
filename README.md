@@ -8,6 +8,11 @@ Run the Script:
 ```bash
 ./create_disk_img.sh
 ```
+Key Notes
+Sparse files: fallocate creates sparse files efficiently without writing zeros across the entire file.
+File names: The disks will be named disk1.img, disk2.img, and disk3.img.
+Size: Each disk is exactly 2 GB.
+
 ## LVM & RAID Configuration
 **lvm_raid_config.sh** Script includes the setup of RAID 5 setup of 3 disks 2GB (6GBin Total) and an LVM having
 
