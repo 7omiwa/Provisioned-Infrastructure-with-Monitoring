@@ -1,4 +1,4 @@
- # Provisioned-Infrastructure
+# App and Monitoring Stack on LVM RAID
 Provisioned Infra with LVM + RAID + Ansible + Monitoring
 
 ## Disk Image Creation (Optional)
